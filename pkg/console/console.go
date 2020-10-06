@@ -1,0 +1,5 @@
+package console
+
+const (
+	Red = ""
+)
