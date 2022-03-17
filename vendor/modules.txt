@@ -1,0 +1,15 @@
+# github.com/google/uuid v1.3.0
+## explicit
+github.com/google/uuid
+# github.com/ntwrk1/guid v1.2.0
+## explicit
+github.com/ntwrk1/guid
+# github.com/schigh/str v0.0.0-20170715183927-361193c512d2
+## explicit
+github.com/schigh/str
+# github.com/stretchr/testify v1.6.1
+## explicit
+# golang.org/x/crypto v0.0.0-20220315160706-3147a52a75dd
+## explicit
+golang.org/x/crypto/bcrypt
+golang.org/x/crypto/blowfish
