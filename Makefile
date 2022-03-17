@@ -25,5 +25,13 @@ sha1:
 sha256:
 	go build -o "${GOBIN}/sha256" cli/cmd/sha256/main.go
 
+.PHONY: bcrypt
+bcrypt:
+	go build -o "${GOBIN}/bcrypt" cli/cmd/bcrypt/main.go
+
+.PHONY: guid
+guid:
+	go build -o "${GOBIN}/guid" cli/cmd/guid/main.go
+
 .PHONY: all
-all: cuid slug uuid uuidv1 md5 sha1 sha256
+all: cuid slug uuid uuidv1 md5 sha1 sha256 bcrypt guid

@@ -19,7 +19,7 @@ func main() {
 		guid.SetGlobalPrefixBytes(prefix[0], prefix[1])
 	}
 
-	g, _ := guid.New()
-	
+	g := guid.New()
+
 	fmt.Println(g.String())
 }
